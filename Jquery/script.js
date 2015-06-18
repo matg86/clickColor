@@ -15,10 +15,10 @@ var defaultColor = function(a){
         $("#first-header-word").css("color", "orangered");
         $("#second-header-word").css("color", "indigo");
     });
-}
+};
 
 defaultColor("body");
-defaultColor(".wrapper")
+defaultColor(".wrapper");
 
 
 
@@ -179,20 +179,18 @@ var menuShowHide = function (a,b){
         $(".all").hide();
         $(b).show();
     });
+};
 
-}
-
-menuShowHide("#blue_link", ".blues")
-menuShowHide("#brown_link", ".browns")
-menuShowHide("#green_link", ".greens")
-menuShowHide("#gray_link", ".grays")
-menuShowHide("#white_link", ".whites")
-menuShowHide("#orange_link", ".oranges")
-menuShowHide("#pink_link", ".pinks")
-menuShowHide("#purple_link", ".purples")
-menuShowHide("#red_link", ".reds")
-menuShowHide("#yellow_link", ".yellows")
-
+menuShowHide("#blue_link", ".blues");
+menuShowHide("#brown_link", ".browns");
+menuShowHide("#green_link", ".greens");
+menuShowHide("#gray_link", ".grays");
+menuShowHide("#white_link", ".whites");
+menuShowHide("#orange_link", ".oranges");
+menuShowHide("#pink_link", ".pinks");
+menuShowHide("#purple_link", ".purples");
+menuShowHide("#red_link", ".reds");
+menuShowHide("#yellow_link", ".yellows");
 
 
 
